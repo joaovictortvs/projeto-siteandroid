@@ -46,6 +46,7 @@ header {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
     min-height: 150px;
     text-align: center;
+    width: 100%;
 }
 
 header > h1 {
@@ -207,13 +208,3 @@ footer{
     font-size: 0.8em;
 }
 
-footer a {
-    color: white;
-    font-weight: bolder;
-    text-decoration: none;
-}
-
-footer a:hover{
-    text-decoration: underline;
-    color: var(--cor1);
-}
